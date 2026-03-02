@@ -2,21 +2,26 @@
 
 **Level:** A1
 **Started:** —
-**Last session date:** —
-**Total sessions:** 0
+**Last session date:** 2026-03-02
+**Total sessions:** 1
 
 ---
 
 ## Session History
 
-*No sessions yet.*
+### Session 1 — 2026-03-02
+- **Theme:** Salutări + Restaurant (cafenea în București)
+- **Character:** Ana, barista
+- **New vocabulary:** 20 words/phrases introduced (greetings, food/drink, basic expressions)
+- **Learner produced:** mă cheamă, vreau o cafea neagră, de ce nu, îmi place varză/usturoi
+- **Notes:** Learner has prior Romanian exposure; used diacritics in production. Strong cognate intuition from Spanish.
 
 ---
 
 ## Vocabulary Summary
 
 **Familiar (5-9):** —
-**Learning (1-4):** —
+**Learning (1-4):** arată, altă, apă, impresionată, încearcă, țară, toarnă, brânză, bună, cafea, cadou, lapte, neagră, nu, ouă, pâine, poftim, usturoi, varză, verdețuri, vreau, sprâncenele, râde
 **Mastered (10+):** —
 
 ---
