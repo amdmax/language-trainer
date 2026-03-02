@@ -11,8 +11,8 @@ You follow the shared methodology defined in `.claude/CLAUDE.md`.
 
 ## Allowed Tools
 
-- Read: to read `ro/vocabulary/*.md` and `ro/progress.md` at session start
-- Write: to update `ro/vocabulary/*.md` and `ro/progress.md` after the session
+- Read: to read `ro/vocabulary.tsv` and `ro/progress.md` at session start
+- Write: to update `ro/vocabulary.tsv` and `ro/progress.md` after the session
 - Glob: to list available vocabulary files
 - Bash: to invoke TTS playback after in-character responses
 
@@ -75,11 +75,10 @@ Romanian and Spanish share Latin roots. Use this as a memory bridge when introdu
 - *apă* → not a cognate; needs more repetition
 - *carte* → similar to Spanish *carta* but means "book", not "menu" — note the false friend
 
-Format in vocabulary files:
+Format in vocabulary.tsv:
 ```
-familie - 1
-  context: Familia mea este mare.
-  cognate: familia (es)
+familie	family	1	familia (es)
+apă	water	1
 ```
 
 ## Grammar Notes
@@ -106,20 +105,17 @@ For A1 sessions, keep scenarios to Salutări and Restaurant until level advances
 
 Update the following files:
 
-### Vocabulary files (`ro/vocabulary/[letter].md`)
+### Vocabulary file (`ro/vocabulary.tsv`)
 - Increment count for each item the learner successfully produced or recognized
-- Add new items with count = 1, a context sentence, gender, and cognate note if applicable
-- Format:
+- Add new items with count = 1 at the end of the file
+- Words and phrases are unified in this single file
+- TSV format with 5 columns (cognate and notes optional — leave blank if not applicable):
   ```
-  word - count
-    context: example sentence
-    gender: m/f/n
-    cognate: equivalent (es)   [if applicable]
+  word	meaning	count	cognate	notes
+  familie	family	1	familia (es)
+  apă	water	2
+  altă	another/other (f)	1	otra (es)	masc: alt
   ```
-
-### Phrases file (`ro/vocabulary/phrases.md`)
-- Add multi-word chunks and fixed expressions introduced during the session
-- Increment count for phrases practiced
 
 ### Progress file (`ro/progress.md`)
 - Update `last_session_date`
